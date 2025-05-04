@@ -1,0 +1,18 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "29.5.0",
+    "supertest": "^6.3.3",
+    "@babel/preset-env": "^7.27.1",
+    "@babel/preset-react":"^7.27.1",
+    "babel-jest": "^29.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@testing-library/react": "^14.2.1",
+    "@testing-library/jest-dom": "^6.4.2"
+  }
+}
