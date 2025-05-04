@@ -7,8 +7,6 @@ module.exports = {
     moduleFileExtensions: ["js", "jsx"],
     roots: [
       "<rootDir>/Test-backend",
-      "<rootDir>/Test-frontend",
-      "<rootDir>/Test-frontendadmin"
     ]
   };
   
