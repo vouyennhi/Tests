@@ -38,7 +38,9 @@ describe('POST /api/course/create', () => {
   test('should return 400 if missing fields', async () => {
     const response = await request(app)
       .post('/api/course/create')
-      .send({ title: "Thiếu mô tả" });
+      .send({
+        title: "Thiếu mô tả"
+      });
 
     expect(response.statusCode).toBe(400);
     expect(response.body).toHaveProperty('message', 'Thiếu thông tin khóa học');

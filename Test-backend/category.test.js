@@ -18,7 +18,9 @@ describe('GET /api/category', () => {
 
 describe('POST /api/category/create', () => {
   test('should create category successfully', async () => {
-    const newCategory = { name: "Kinh doanh" };
+    const newCategory = {
+      name: "Kinh doanh"
+    };
 
     const response = await request(app)
       .post('/api/category/create')
